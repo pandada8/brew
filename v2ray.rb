@@ -1,7 +1,7 @@
 class V2ray < Formula
   desc "V2Ray provides building blocks for network proxy development."
   homepage "https://github.com/v2ray/v2ray-core"
-  version "2.33.1"
+  version "4.19.1"
   url "https://github.com/v2ray/v2ray-core/releases/download/v#{version}/v2ray-macos.zip"
 
   def plist; <<-EOS.undent
